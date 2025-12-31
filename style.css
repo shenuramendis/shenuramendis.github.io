@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+    --bg-main: #141414; /* Main */
+    --bg-section: #1e1e1e; /* Cards and boxes */
+    --text-primary: #d6d6d6; /* Headers */
+    --text-secondary: #979797; /* Body text*/
+    --accent-primary: #e2e800; /* buttons and stuff */
+    --border-muted: #444444; /* tables and borders */ 
+}
+
+h1{
+    color: var(--text-primary);
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-secondary);
+}
+
+a {
+    color: var(--accent-primary);
+}
+
+footer {
+    text-align: center;
+    color: var(--text-secondary);
+}
