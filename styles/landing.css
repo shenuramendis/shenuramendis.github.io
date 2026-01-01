@@ -1,0 +1,26 @@
+@import url("colors.css");
+
+.name {
+    color: var(--text-primary);
+    text-align:center;
+}
+
+header {
+    margin-top: 15%;
+}
+
+nav {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.links {
+    text-decoration-color: var(--text-secodary);
+    text-decoration: none;
+    background-color: var(--accent-primary);
+    padding: 30px;
+    width: 50px;
+    height: 20px;
+    border: 3px dashed var(--border-muted);
+    border-radius: 60px;
+}

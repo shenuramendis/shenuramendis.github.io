@@ -1,0 +1,13 @@
+:root {
+    --bg-main: #fafafa; /* Main */
+    --bg-section: #ffffff; /* Cards and boxes */
+    --bg-alternate: #cdcdcf;
+
+    --text-primary: #1f1f1f; /* Headers */
+    --text-secondary: #939599; /* Body text*/
+
+    --accent-primary: #ec4d25; /* buttons and stuff */
+    --accent-secondary: #2bcfce;
+    
+    --border-muted: #cdcdcf; /* tables and borders */ 
+}
