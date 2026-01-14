@@ -1,6 +1,7 @@
 @import url("colors.css");
 
 .name {
+    font-size: 64px;
     color: var(--text-primary);
     text-align:center;
 }
@@ -15,12 +16,18 @@ nav {
 }
 
 .links {
-    text-decoration-color: var(--text-secodary);
+    color: white;
+    font-weight: bold;
     text-decoration: none;
-    background-color: var(--accent-primary);
+    background-color: var(--border-muted);
     padding: 30px;
     width: 50px;
     height: 20px;
-    border: 3px dashed var(--border-muted);
+    border: 3px solid var(--border-muted);
+    transition: background-color 0.3s ease-in-out;
     border-radius: 60px;
+}
+
+.links:hover {
+    background-color: var(--accent-primary);
 }

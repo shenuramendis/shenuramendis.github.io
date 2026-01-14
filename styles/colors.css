@@ -1,13 +1,13 @@
 :root {
-    --bg-main: #fafafa; /* Main */
-    --bg-section: #ffffff; /* Cards and boxes */
-    --bg-alternate: #cdcdcf;
+    --bg-main: #1e1f22; /* Main */
+    --bg-section: #242423; /* Cards and boxes */
+    --bg-alternate: #cdcdcf; 
 
-    --text-primary: #1f1f1f; /* Headers */
-    --text-secondary: #939599; /* Body text*/
+    --text-primary: #f2f0ef; /* Headers */
+    --text-secondary: #3aafb9; /* Body text*/
 
-    --accent-primary: #ec4d25; /* buttons and stuff */
-    --accent-secondary: #2bcfce;
+    --accent-primary: #093a3e; /* buttons hover */
+    --accent-secondary: #97c8eb; /* button static */
     
-    --border-muted: #cdcdcf; /* tables and borders */ 
+    --border-muted: #3aafb9; /* tables and borders */ 
 }
